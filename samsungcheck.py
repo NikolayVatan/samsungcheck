@@ -58,7 +58,7 @@ def search(email):
             'exist': False
         }
 
-    return r.text, result, token
+    return r.text, result
 
 
 if __name__ == '__main__':
